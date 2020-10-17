@@ -1,0 +1,63 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+
+.top-margin{
+    margin-top: 80px;
+}
+.bottom-margin{
+    margin-bottom: 45px;
+}
+
+
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+}    
+    
+footer a{
+    color: #9d9d9d;
+}
+
+footer a:hover{
+     color: #f8f8f8;
+}
+
+
+
+.red{
+    color:red;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+
